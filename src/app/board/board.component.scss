@@ -1,0 +1,38 @@
+.title {
+    background: rgba(42, 155, 42, 1) 0%,;
+    height: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(20, 20, 20, 0.767);
+  height: 100vh;
+  gap: 5rem;
+}
+
+.header {
+    font-size: 3rem;
+    color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+}
+
+app-square {
+  border: 1px gray solid;
+  height: 200px;
+}
+
+button {
+  background: #2a9b2a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
