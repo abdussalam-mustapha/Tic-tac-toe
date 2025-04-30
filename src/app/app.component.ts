@@ -5,7 +5,7 @@ import { BoardComponent } from "./board/board.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SquareComponent, BoardComponent],
+  imports: [RouterOutlet, BoardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
